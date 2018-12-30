@@ -66,6 +66,12 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.io/custom-fonts/#from-packages
+  assets:
+    - assets/img/people.jpg
+    - assets/img/Adrian.png
+    - assets/img/Josue.png
+    - assets/img/Maria.png
+
   fonts:
     - family: Lato
       fonts:
