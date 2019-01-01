@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
 import 'profile_trips.dart';
+import 'platzi_trips_cupertino.dart';
 
 class PlatziTrips extends StatefulWidget{
 
@@ -33,6 +34,7 @@ class _MyPlatziTrips extends State<PlatziTrips>{
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
+    /*
     return Scaffold(
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
@@ -59,7 +61,8 @@ class _MyPlatziTrips extends State<PlatziTrips>{
         ),
       ),
       body: widgetsChildren[indexTab],
-    );
+    );*/
+    return PlatziTripsCupertino();
   }
 
 }
