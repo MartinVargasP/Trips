@@ -12,7 +12,7 @@ class ProfileTrips extends StatelessWidget{
         GradientProfile('Profile'),
         Container(
           margin: EdgeInsets.only(
-            top: 55.0,
+            top: 60.0,
             left: 370.0
           ),
           child: Icon(
